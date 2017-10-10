@@ -53,5 +53,6 @@ export CFLAGS="-Os -s
 -c --colorize    colorize
 -l --logoff      logoff
 ```
-##Thanks
+## Thanks
+
 [sysuh3c](https://github.com/zonyitoo/sysuh3c)
