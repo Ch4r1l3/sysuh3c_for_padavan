@@ -21,19 +21,33 @@ A CLI H3C Client for Padavan
 接着修改~/.bashrc，加上下面东西
 
 export padavan_bin=/opt/padavan/rt-n56u/toolchain-mipsel/toolchain-3.4.x/bin #（此处要按自己的交叉编译工具链位置来修改）
+
 export PATH=$PATH:/opt/padavan/rt-n56u/toolchain-mipsel/toolchain-3.4.x/bin
+
 export AR=$padavan_bin/mipsel-linux-uclibc-ar
+
 export AS=$padavan_bin/mipsel-linux-uclibc-as
+
 export LD=$padavan_bin/mipsel-linux-uclibc-ld
+
 export NM=$padavan_bin/mipsel-linux-uclibc-nm
+
 export CC=mipsel-linux-uclibc-gcc
+
 export CPP=mipsel-linux-uclibc-cpp
+
 export GCC=mipsel-linux-uclibc-gcc
+
 export CXX=mipsel-linux-uclibc-g++
+
 export RANLIB=mipsel-linux-uclibc-ranlib
+
 export ac_cv_linux_vers=2.6.32
+
 export LDFLAGS="-static"
+
 export CFLAGS="-Os -s
+
 
 接着执行source ~/.bashrc 
 
